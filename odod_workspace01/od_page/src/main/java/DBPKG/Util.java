@@ -1,7 +1,7 @@
 package DBPKG;
 import java.sql.DriverManager;
-
 import java.sql.*;
+
 public class Util {
 	public static Connection getConnection() throws Exception{
 		Class.forName("oracle.jdbc.OracleDriver");
